@@ -8,39 +8,14 @@
 
 /* -------------------------------- 
 
-Primary style
-
--------------------------------- */
-
-*, *::after, *::before {
-	box-sizing: border-box;
-}
-
-html {
-	font-size: 62.5%;
-}
-
-body {
-	font: {
-		size: 1.6rem;
-		family: $primary-font; // variables inside partials > _variables.scss
-	}
-	color: $color-1;
-	background-color: $color-3;
-}
-
-a {
-	color: $color-2;
-	text-decoration: none;
-}
-
-/* -------------------------------- 
-
  Header
 
 -------------------------------- */
 
 .cd-morph-dropdown { 
+	*, *::after, *::before {
+		box-sizing: border-box;
+	}
 	position: relative;
 	height: 60px;
 	background-color: $color-3;
@@ -450,20 +425,5 @@ a {
 			opacity: 1;
 			transition: transform .3s, opacity .3s;
 		}
-	}
-}
-
-/* -------------------------------- 
-
-Main site content
-
--------------------------------- */
-
-.cd-main-content {
-	min-height: 100vh;
-	background-color: $color-4;
-
-	@include MQ(L) {
-		padding-top: 80px;
 	}
 }

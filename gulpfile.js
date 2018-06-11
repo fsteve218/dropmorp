@@ -4,7 +4,7 @@ const sass = require('gulp-sass');
 const browserSync = require('browser-sync');
 
 const SOURCEPATHS = {
-    sassSource : 'scss/*.scss',
+    sassSource : ['scss/*.scss'],
     jsSource:'js/main.js',
     htmlSource:'*.html'
 }
