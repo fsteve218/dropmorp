@@ -1,0 +1,27 @@
+{
+  "name": "morph-menu",
+  "version": "1.0.0",
+  "description": "Morphing Menu",
+  "main": "",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyHouse/stripe.com-navigation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodyHouse/stripe.com-navigation/issues"
+  },
+  "homepage": "https://github.com/CodyHouse/stripe.com-navigation#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4"
+  }
+}

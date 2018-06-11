@@ -1,7 +1,7 @@
-Stripe.Com Navigation
+Drop Morph
 =========
 
-A morphing dropdown that animates according to the size of its content.
+A rewrite of the original Stripe.Com Navigation javascript (links below) using an jQuery initialization function
 
 [Article on CodyHouse](http://codyhouse.co/gem/stripe-navigation/)
 
