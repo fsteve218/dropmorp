@@ -5,7 +5,7 @@ A rewrite of the original Stripe.Com Navigation javascript (links below) using a
 
 [Article on CodyHouse](http://codyhouse.co/gem/stripe-navigation/)
 
-[Demo](http://codyhouse.co/demo/stripe-navigation/index.html)
+[Demo of original](http://codyhouse.co/demo/stripe-navigation/index.html)
  
 [Terms](http://codyhouse.co/terms/)
 
