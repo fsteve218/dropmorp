@@ -5,7 +5,8 @@ const browserSync = require('browser-sync');
 
 const SOURCEPATHS = {
     sassSource : 'scss/*.scss',
-    jsSource:'js/main.js'
+    jsSource:'js/main.js',
+    htmlSource:'*.html'
 }
 
 // App Paths
@@ -47,6 +48,6 @@ gulp.task( 'serve', ['sass'], () => {
 
 gulp.task( 'watch', ['serve'], () => {
     gulp.watch( [SOURCEPATHS.sassSource], ['sass']);
-    gulp.watch( [SOURCEPATHS.jsSource] ).on( 'change', browserSync.reload );
+    gulp.watch( [SOURCEPATHS.jsSource, SOURCEPATHS.htmlSource] ).on( 'change', browserSync.reload );
 })
 gulp.task('default',['watch']);
